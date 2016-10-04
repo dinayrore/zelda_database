@@ -27,7 +27,7 @@ class ZeldaDatabase
 
   def create_inventory_table
     @conn.exec(
-      'CREATE TABLE IF NOT EXISTS inventory (' \
+      'CREATE TABLE IF NOT EXISTS shared_inventory (' \
       'hero_id NUMERIC, item_id NUMERIC)'
     )
   end

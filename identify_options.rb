@@ -16,12 +16,13 @@ class IdentifyOptions
 
     parser.find_hero
 
+# have not figured this one out yet...
     parser.search_inventory
 
     parser.insert_item
 
     parser.add_hero
-
+# edit functions do not work...
     parser.update_item
 
     parser.edit_hero
