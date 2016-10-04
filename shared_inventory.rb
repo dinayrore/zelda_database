@@ -1,18 +1,20 @@
 require 'pry'
 #
-class Inventory
+class SharedInventory
   attr_accessor :search
 
   def initialize(data, zdb)
-    @search = data[:search]
+    @id = nil
+    @data = data
     @conn = zdb.conn
   end
 
   def find
     database = @conn.exec('SELECT * FROM items ' \
-    "WHERE name = '#{@search}'")
+    "WHERE name = '#{@data[:search]}'")
     database.each do |inventory|
-      puts "hero_id: #{inventory['hero_id']} | item_id: #{inventory['item_id']} "
+      puts "item: #{shared_inventory['item']} | " \
+      "hero: #{shared_inventory['name']}"
     end
   end
 
