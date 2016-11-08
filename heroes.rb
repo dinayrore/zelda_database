@@ -1,5 +1,4 @@
-require 'pry'
-#
+# written with SQL, Heroes Class CRUD functionality
 class Heroes
   attr_accessor :find, :add, :remove
   attr_reader :id
