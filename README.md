@@ -51,7 +51,7 @@ Once you have completed the above installation processes your system is ready to
 Please complete the following procedure to run the program on a live system:
   1. Open Terminal.
   2. Change your directory to the one that which you would like to save this project. `$ cd folder_name`
-  3. Then run the command `$ git clone https://github.com/kteich88/zelda_database.git` and `$ cd zelda_database`
+  3. Then run the commands `$ git clone https://github.com/kteich88/zelda_database.git` and `$ cd zelda_database`
   4. Run `$ bundle install` to install the gems necessary for this project (specified in Gemfile).
   5. Open up the app Postgres.
   6. Finally run the application `$ ruby sql_search_engine.rb -[Options] to begin seeding your database using option parser. 
