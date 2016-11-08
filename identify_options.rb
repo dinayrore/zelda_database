@@ -1,7 +1,6 @@
 require 'optparse'
 require_relative 'parse'
-require 'pry'
-#
+# my own unique OptionParser class
 class IdentifyOptions
   def parse_options
     data = {}
