@@ -1,5 +1,4 @@
-require 'pry'
-#
+# written with SQL, SharedInventory Class with CRUD functionality
 class SharedInventory
   attr_accessor :search
 
