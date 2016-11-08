@@ -1,4 +1,3 @@
-require 'pry'
 require_relative 'zelda_database'
 require_relative 'identify_options'
 require_relative 'items'
