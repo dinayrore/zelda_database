@@ -1,5 +1,4 @@
-require 'pry'
-#
+# Items Class written with SQL including CRUD functionality
 class Items
   attr_accessor :discover, :insert, :edit, :lose
   attr_reader :id
