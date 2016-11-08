@@ -1,5 +1,4 @@
-require 'pry'
-#
+# Parsing class to be used with my own unique OptionParser
 class Parse
   def initialize(option, data)
     @option = option
