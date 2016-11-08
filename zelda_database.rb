@@ -1,5 +1,4 @@
-require 'pg'
-#
+# written with SQL, Zelda Database Class with CRUD functionality
 class ZeldaDatabase
   attr_reader :conn
 
